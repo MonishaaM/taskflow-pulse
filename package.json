@@ -1,12 +1,8 @@
 ﻿{
-  "name": "taskflow-pulse-root",
+  "name": "taskflow-pulse",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd client && npm install && npm run build"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "build": "npm --prefix client install && npm --prefix client run build"
   }
 }
